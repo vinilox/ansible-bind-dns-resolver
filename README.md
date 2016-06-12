@@ -5,8 +5,8 @@
 - bind9
 
 ## TODO
-- [ ] Validation DNSSEC
-- [x] Changer le nom pour bind-recursive-resolver
+- [x] Validation DNSSEC
+- [ ] Changer le nom pour bind-recursive-resolver
 - [x] Renommer fichier de template en .j2
 
 ## Références
