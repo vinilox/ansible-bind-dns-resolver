@@ -1,4 +1,7 @@
 options {
-allow-recursion { any; };
+        directory "/var/cache/bind";
+        allow-recursion { any; };
+        dnssec-enable yes;
+        dnssec-validation auto;
 };
 
