@@ -1,0 +1,13 @@
+- name: Install Bind
+  apt: pkg=bind9 state=latest
+
+- name: Enable Bind service
+  service: name=bind9 enabled=yes
+
+- name: Replace config to allow recursive query from any IP
+  template: src=named.conf.options dest=/etc/bind/named.conf.options owner=root group=bind mode=0644
+  notify: restart bind9
+
+- name: Start Bind service
+  service: name=bind9 state=started
+
