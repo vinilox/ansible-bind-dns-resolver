@@ -8,4 +8,6 @@
 - [ ] Validation DNSSEC
 - [ ] Changer le nom pour bind-recursive-resolver
 - [ ] Renommer fichier de template en .j2
-- [ ] [Bonnes pratiques](http://www.guiguishow.info/2014/08/23/comment-mettre-en-place-un-serveur-dns-recursif-cache-ouvert-dans-de-bonnes-conditions/)
+
+## Références
+- [Bonnes pratiques](http://www.guiguishow.info/2014/08/23/comment-mettre-en-place-un-serveur-dns-recursif-cache-ouvert-dans-de-bonnes-conditions/)
