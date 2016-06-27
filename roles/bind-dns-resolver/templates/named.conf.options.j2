@@ -1,6 +1,6 @@
 options {
         directory "/var/cache/bind";
-        allow-recursion { any; };
+        allow-recursion { 89.234.176.0/24; 88.190.3.36; 80.67.176.175; 80.67.179.17; };
         dnssec-enable yes;
         dnssec-validation auto;
 };
